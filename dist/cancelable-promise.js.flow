@@ -1,0 +1,9 @@
+// @flow
+export type CancelablePromise<T> = {|
+  promise: Promise<T>,
+  cancel: () => void,
+|};
+declare export function makeCancelable<T>(
+  promise: Promise<T>
+): CancelablePromise<T>;
+declare export function isCanceled(err: any): boolean;
