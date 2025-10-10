@@ -696,7 +696,7 @@ __metadata:
     flow-bin: 0.110.1
     flowgen: ^1.21.0
     jest: ^29.7.0
-    jest-environment-jsdom: ^30.0.5
+    jest-environment-jsdom: ^30.2.0
     prettier: ^3.6.2
     ts-jest: ^29.4.4
     typescript: ^5.9.3
@@ -2983,7 +2983,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-environment-jsdom@npm:^30.0.5":
+"jest-environment-jsdom@npm:^30.2.0":
   version: 30.2.0
   resolution: "jest-environment-jsdom@npm:30.2.0"
   dependencies:
