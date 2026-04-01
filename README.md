@@ -5,7 +5,7 @@ Utilities to create a promise that can be canceled.
 ## Install
 
 ```sh
-yarn add @freckle/cancelable-promise
+pnpm add @freckle/cancelable-promise
 ```
 
 ## Versioning and release process
