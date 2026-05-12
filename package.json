@@ -5,6 +5,9 @@
   "author": "Freckle",
   "license": "MIT",
   "main": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/freckle/cancelable-promise-js.git"

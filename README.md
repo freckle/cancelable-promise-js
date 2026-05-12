@@ -8,7 +8,7 @@ Utilities to create a promise that can be canceled.
 pnpm add @freckle/cancelable-promise
 ```
 
-## Versioning and release process
+## Release
 
 See [RELEASE.md](./RELEASE.md).
 
