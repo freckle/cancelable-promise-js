@@ -1,4 +1,4 @@
-import {isCanceled, makeCancelable} from '.'
+import {isCanceled, makeCancelable} from './index.js'
 
 describe('CancelablePromise', () => {
   describe('makeCancelable', () => {

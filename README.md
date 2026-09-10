@@ -2,6 +2,9 @@
 
 Utilities to create a promise that can be canceled.
 
+This package is ESM-only. Consumers must be able to `import` it; `require()` will not
+work.
+
 ## Install
 
 ```sh
