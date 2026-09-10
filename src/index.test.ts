@@ -1,4 +1,4 @@
-import {makeCancelable} from '.'
+import {isCanceled, makeCancelable} from '.'
 
 describe('CancelablePromise', () => {
   describe('makeCancelable', () => {
@@ -23,8 +23,7 @@ describe('CancelablePromise', () => {
         p.cancel()
         await p.promise
       } catch (e) {
-        // @ts-ignore: Error type is unknown
-        expect(e.isCanceled).toBe(true)
+        expect(isCanceled(e)).toBe(true)
       }
     })
   })
