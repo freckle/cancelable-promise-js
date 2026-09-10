@@ -1,7 +1,7 @@
 import {isCanceled, makeCancelable} from './index.js'
 
 describe('CancelablePromise', () => {
-  describe('makeCancelable', () => {
+  describe(makeCancelable.name, () => {
     test('resolves without cancel', async () => {
       const r = await makeCancelable(Promise.resolve(true)).promise
       expect(r).toBe(true)
