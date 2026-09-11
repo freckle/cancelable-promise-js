@@ -2,7 +2,7 @@
   "name": "@freckle/cancelable-promise",
   "version": "1.0.0",
   "description": "Cancelable promise utilities",
-  "author": "Freckle",
+  "author": "Renaissance Learning Inc",
   "license": "MIT",
   "main": "./dist/index.js",
   "files": [
@@ -13,14 +13,24 @@
     "url": "git+https://github.com/freckle/cancelable-promise-js.git"
   },
   "scripts": {
-    "build": "rm -r dist && tsc -d",
+    "build": "rm -r dist && tsc -p tsconfig.build.json",
     "test": "vitest run",
-    "format": "prettier --write 'src/**/*.ts'"
+    "coverage": "vitest run --coverage",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write 'src/**/*.ts'",
+    "format-check": "prettier --check 'src/**/*.ts'",
+    "lint": "eslint",
+    "knip": "knip"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@vitest/coverage-v8": "^5.0.0",
+    "eslint": "^10.9.1",
+    "knip": "^6.32.3",
     "prettier": "^3.9.6",
-    "typescript": "^7.0.2",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.68.0",
     "vitest": "^5.0.0"
   },
-  "packageManager": "pnpm@12.3.4"
+  "packageManager": "pnpm@12.3.4+sha512.961aa41fb077da3a04a441d9f8e15ebc0c96da8ef710b2eb67bf9ee7cb0610eabd48f1fd85f51cffe73846785fa0f87c56a3a872a1d893f8446741b5cce45457"
 }
