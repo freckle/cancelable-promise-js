@@ -4,6 +4,7 @@
   "description": "Cancelable promise utilities",
   "author": "Renaissance Learning Inc",
   "license": "MIT",
+  "type": "module",
   "main": "./dist/index.js",
   "files": [
     "dist"
@@ -24,6 +25,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
+    "@types/node": "^24.13.4",
     "@vitest/coverage-v8": "^5.0.0",
     "eslint": "^10.9.1",
     "knip": "^6.32.3",
