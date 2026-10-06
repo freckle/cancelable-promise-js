@@ -179,7 +179,7 @@ importers:
         specifier: ^24.19.0
         version: 24.19.0
       '@vitest/coverage-v8':
-        specifier: ^5.0.2
+        specifier: ^5.0.3
         version: 5.0.3(vitest@5.0.3)
       eslint:
         specifier: ^10.11.0
@@ -194,7 +194,7 @@ importers:
         specifier: ^6.0.3
         version: 6.0.3
       vitest:
-        specifier: ^5.0.2
+        specifier: ^5.0.3
         version: 5.0.3(@types/node@24.19.0)(@vitest/coverage-v8@5.0.3)(vite@8.0.3(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)(@types/node@24.19.0)(jiti@2.7.0)(yaml@2.9.0))
 
 packages:
