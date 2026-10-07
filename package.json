@@ -27,7 +27,7 @@
     "@freckle/eslint-config": "^1.2.0",
     "@freckle/prettier-config": "^1.2.0",
     "@freckle/tsconfig": "^1.2.0",
-    "@types/node": "^24.19.0",
+    "@types/node": "^24.19.1",
     "@vitest/coverage-v8": "^5.0.3",
     "eslint": "^10.11.0",
     "knip": "^6.39.0",
