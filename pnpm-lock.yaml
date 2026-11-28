@@ -194,7 +194,7 @@ importers:
         specifier: ^10.15.0
         version: 10.15.0(jiti@2.7.0)
       knip:
-        specifier: ^6.47.0
+        specifier: ^6.48.0
         version: 6.48.0
       prettier:
         specifier: ^3.10.1
